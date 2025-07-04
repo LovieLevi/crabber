@@ -1,0 +1,9 @@
+workspace = { members = ["example"] }
+[package]
+name = "crabber"
+version = "0.0.0"
+edition = "2021"
+authors = ["LeviLovie"]
+
+[dependencies]
+local-ip-address = "0.6.1"
